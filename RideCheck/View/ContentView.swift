@@ -10,12 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView{
-            Tab("Garage", systemImage: "door.garage.open"){
-                GarageView()
+            Tab("Dashboard", systemImage: "house.fill"){
+                DashboardView()
+                    .navigationTitle("Dashboard")
             }
             
-            Tab("Trip History", systemImage: "clock.arrow.trianglehead.counterclockwise.rotate.90"){
-                TripHistoryView()
+            Tab("Trip History", systemImage: "map.fill"){
+                TripsView().navigationTitle(Text("Trip History"))
             }
         }
     }
