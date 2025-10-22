@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7C2846D72EA85B5900BBDFAF /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2846D62EA85B5900BBDFAF /* Color+Extension.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		CC02EE3C2E8D2A0C006E838E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C2846D62EA85B5900BBDFAF /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		CC02EE2E2E8D2A0B006E838E /* RideCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC02EE3B2E8D2A0C006E838E /* RideCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RideCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC02EE452E8D2A0C006E838E /* RideCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RideCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +77,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C2846D52EA85B3C00BBDFAF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7C2846D62EA85B5900BBDFAF /* Color+Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		CC02EE252E8D2A0B006E838E = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +92,7 @@
 				CC02EE3E2E8D2A0C006E838E /* RideCheckTests */,
 				CC02EE482E8D2A0C006E838E /* RideCheckUITests */,
 				CC02EE2F2E8D2A0B006E838E /* Products */,
+				7C2846D52EA85B3C00BBDFAF /* Helper */,
 			);
 			sourceTree = "<group>";
 		};
@@ -236,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C2846D72EA85B5900BBDFAF /* Color+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,7 +412,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 33J34N23WU;
+				DEVELOPMENT_TEAM = 25C6TYUK25;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -429,7 +444,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 33J34N23WU;
+				DEVELOPMENT_TEAM = 25C6TYUK25;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
