@@ -8,18 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        TabView{
-            Tab("Dashboard", systemImage: "house.fill"){
-                DashboardView()
-                    .navigationTitle("Dashboard")
-            }
-            
-            Tab("Trip History", systemImage: "map.fill"){
-                TripsView().navigationTitle(Text("Trip History"))
-            }
-        }
-    }
+	var body: some View {
+	    TabView {
+	        Tab("Dashboard", systemImage: "house.fill") {
+	            DashboardView()
+	                .navigationTitle("Dashboard")
+	        }
+
+	        Tab("Trip History", systemImage: "map.fill") {
+	            TripsView()
+	                .navigationTitle(Text("Trip History"))
+	        }
+	    }
+	}
 }
 
 #Preview {
